@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-     AWS_PROFILE = 'default'
+     AWS_PROFILE = 'jenkins-profile'
     
     //ROLE_ARN     = 'arn:aws:iam::773493560304:role/Super_user'
     //SESSION_NAME = 'jenkins-session'
