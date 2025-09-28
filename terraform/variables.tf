@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "ap-south-1"
+  default = "eu-west-1"
 }
 
 variable "aws_profile" {
@@ -8,7 +8,7 @@ variable "aws_profile" {
 
 variable "ami_id" {
   description = "AMI ID for EC2 instance"
-  default     = "ami-0abcdef1234567890"  # Replace with your AMI
+  default     = "ami-0bc691261a82b32bc"  # Replace with your AMI
 }
 
 variable "instance_type" {
