@@ -2,11 +2,11 @@ pipeline {
   agent any
 
   environment {
-    // AWS_PROFILE = 'jenkins-profile'
+    AWS_PROFILE = 'jenkins-profile'
     
     //ROLE_ARN     = 'arn:aws:iam::773493560304:role/Super_user'
     //SESSION_NAME = 'jenkins-session'
-    //AWS_REGION   = 'eu-west-1'
+    AWS_REGION   = 'eu-west-1'
     
   }
 
