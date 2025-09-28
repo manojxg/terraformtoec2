@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    AWS_PROFILE = 'jenkins-profile'  
+    AWS_PROFILE = 'Super_user'  
   }
 
   stages {
@@ -12,9 +12,9 @@ pipeline {
           cd terraform
           terraform init
           terraform apply -auto-approve \
-            -var subnet_id=subnet-0123456789abcdef \
-            -var security_group_ids='["sg-0123456789abcdef"]' \
-            -var instance_profile_name=MyEC2Profile
+            -var subnet_id=subnet-0e71381a11f27c2c4 \
+            -var security_group_ids='["sg-0cf62ab6398dbaba9"]' \
+            -var instance_profile_name=Super_user
         '''
       }
     }
