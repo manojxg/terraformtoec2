@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "aws_profile" {
-  default = "jenkins-profile"  # Set to "" if using EC2 IAM role
+  default = "Super_user"  # Set to "" if using EC2 IAM role
 }
 
 variable "ami_id" {
