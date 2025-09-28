@@ -20,7 +20,7 @@ pipeline {
             -var subnet_id=subnet-0e71381a11f27c2c4 \
             -var security_group_ids='["sg-0cf62ab6398dbaba9"]' \
             -var instance_profile_name=Super_user
-            -var assume_role_arn=arn:aws:iam::773493560304:role/Super_user
+          
         '''
       }
     }
