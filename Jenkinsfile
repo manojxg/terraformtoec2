@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    AWS_PROFILE = 'jenkins-profile'  // Optional if using EC2 IAM role
+    AWS_PROFILE = 'jenkins-profile'  
   }
 
   stages {
